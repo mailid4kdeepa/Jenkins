@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionSuite">
+
+    <test name="m1">
+
+        <parameter name="UN" value="Deepa"/>
+        <parameter name="PWD" value="Deepa123"/>
+
+        <classes>
+            <class name="UsingTestNG.DataFromXml"/>
+        </classes>
+
+    </test>
+
+</suite>
